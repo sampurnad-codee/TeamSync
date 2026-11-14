@@ -1,5 +1,5 @@
 
-import './App.css'
+import './App.css';
 
 function App() {
   return (
@@ -10,77 +10,73 @@ function App() {
         <div className="nav-links">
           <a href="#home">Home</a>
           <a href="#features">Features</a>
-          <a href="#discover">Discover</a>
+          <a href="#login">Login</a>
         </div>
 
-        <button className="login-btn">Log In</button>
+        <button className="nav-button">Join Now</button>
       </nav>
 
       <section className="hero" id="home">
-        <div className="hero-content">
-          <p className="tagline">
-            ✨ FIND YOUR PERFECT TEAM
-          </p>
+        <p className="tagline">COLLABORATE. CREATE. INNOVATE.</p>
 
-          <h1>
-            Great ideas need
-            <br />
-            <span>great teammates.</span>
-          </h1>
+        <h1>
+          Find Your <span>Perfect Team.</span>
+        </h1>
 
-          <p className="description">
-            Connect with students who share your interests,
-            complement your skills, and are ready to build
-            something amazing together.
-          </p>
+        <p className="hero-text">
+          Great ideas need great teammates. Connect with students
+          who share your interests, complement your skills and are
+          ready to build something amazing together.
+        </p>
 
-          <div className="hero-buttons">
-            <button className="primary-btn">
-              Find Teammates →
-            </button>
-
-            <button className="secondary-btn">
-              Create a Team
-            </button>
-          </div>
-
-          <p className="small-text">
-            Built for hackathons. Made for collaboration.
-          </p>
+        <div className="hero-buttons">
+          <button className="primary-button">Find Teammates →</button>
+          <button className="secondary-button">Create a Team</button>
         </div>
 
         <div className="hero-card">
-          <div className="emoji">🚀</div>
-          <h3>Your next great team starts here.</h3>
+          <h3>🚀 Your next great team starts here</h3>
           <p>Skills • Interests • Availability</p>
         </div>
       </section>
 
       <section className="features" id="features">
+        <p className="tagline">WHY TEAMSYNC?</p>
         <h2>Everything you need to find your team</h2>
 
         <div className="feature-grid">
           <div className="feature-card">
-            <div className="feature-icon">💻</div>
+            <div className="icon">🎯</div>
             <h3>Skill Matching</h3>
-            <p>Find teammates with complementary technical skills.</p>
+            <p>
+              Find teammates whose skills complement yours.
+            </p>
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon">🎯</div>
+            <div className="icon">💡</div>
             <h3>Shared Interests</h3>
-            <p>Connect with students who love the same projects.</p>
+            <p>
+              Connect with students who love the same ideas.
+            </p>
           </div>
 
           <div className="feature-card">
-            <div className="feature-icon">🗓️</div>
+            <div className="icon">⏰</div>
             <h3>Availability</h3>
-            <p>Build teams that can actually work together.</p>
+            <p>
+              Build a team that fits your schedule.
+            </p>
           </div>
         </div>
       </section>
+
+      <footer>
+        <h3>TeamSync.</h3>
+        <p>Built for students, powered by collaboration.</p>
+      </footer>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
